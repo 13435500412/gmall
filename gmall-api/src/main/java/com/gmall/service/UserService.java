@@ -1,4 +1,4 @@
-package com.gmall.bean.service;
+package com.gmall.service;
 
 import com.gmall.bean.UserInfo;
 

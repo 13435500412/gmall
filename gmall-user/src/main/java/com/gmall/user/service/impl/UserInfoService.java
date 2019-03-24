@@ -1,14 +1,14 @@
 package com.gmall.user.service.impl;
 
+import com.alibaba.dubbo.config.annotation.Service;
 import com.gmall.bean.UserInfo;
-import com.gmall.bean.service.UserService;
+import com.gmall.service.UserService;
 import com.gmall.user.mapper.UserInfoMapper;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-@Service
+@Service  //dubbo包下的Service
 public class UserInfoService implements UserService {
 
     @Autowired
